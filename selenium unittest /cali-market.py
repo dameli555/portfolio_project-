@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
-import helpers1 as H
+import helpers as H
 
 
 class Chrome_AddressesTests(unittest.TestCase):
@@ -493,7 +493,6 @@ class Chrome_AddressesTests(unittest.TestCase):
 
     def tearDown(self):
         self.driver.quit()  # Close the browser.
-
 
 class Edge_AddressesTests(unittest.TestCase):
 
